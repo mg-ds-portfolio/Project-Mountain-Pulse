@@ -1,0 +1,28 @@
+# Ignore your virtual environment
+venv_mountain_pulse/
+
+# Ignore Jupyter checkpoints (auto-saved backups)
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore large or private data files
+data/
+!data/.gitkeep
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore model output or temp files (optional)
+*.h5
+*.pkl
+*.joblib
+*.csv
+
+# Ignore environment variables
+.env
+
+# Ignore specific notebooks
+...
